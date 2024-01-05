@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Baixar anime</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+      <form id="myForm">
+         <label for="fname">URL do anime:</label><br>
+         <br>
+         <input type="text" id="fname" name="fname"><br>
+         <br>
+         <button type="submit" id="submit">Baixar anime</button>
+      </form>
+
+      <div class="log">
+         <div class="container-log desactive">
+            <p class="buscando desactive">Buscando...</p>
+            <p class="encontrado desactive">Encontrado...</p>
+            <p class="baixado desactive">Baixado...</p>
+         </div>
+      </div>
+   </div>
+   <script src="renderer.js"></script>
+</body>
+
+</html>

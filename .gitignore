@@ -1,0 +1,40 @@
+# Dependências
+/node_modules
+
+# Arquivos de logs
+npm-debug.log
+yarn-error.log
+
+# Ambiente de desenvolvimento
+.env
+
+# Arquivos de compilação
+/dist
+/build
+
+# Arquivos de configuração
+.DS_Store
+Thumbs.db
+
+# Arquivos de sistema
+.vscode
+.idea
+
+# Arquivos de cache
+*.log
+*.tst
+*.suo
+*.user
+*.bak
+*.tmp
+
+# Arquivos temporários
+*.swp
+*.swo
+
+# Dependendo do gerenciador de pacotes, você pode adicionar essas linhas
+# Se estiver usando npm:
+package-lock.json
+
+# Se estiver usando yarn:
+yarn.lock
